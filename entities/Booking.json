@@ -1,0 +1,85 @@
+{
+  "name": "Booking",
+  "type": "object",
+  "properties": {
+    "full_name": {
+      "type": "string",
+      "description": "Full name of the person booking"
+    },
+    "email": {
+      "type": "string",
+      "description": "Email address"
+    },
+    "phone": {
+      "type": "string",
+      "description": "Phone number"
+    },
+    "contact_method": {
+      "type": "string",
+      "enum": [
+        "phone",
+        "snapchat"
+      ],
+      "description": "Preferred contact method"
+    },
+    "snapchat_username": {
+      "type": "string",
+      "description": "Snapchat username if applicable"
+    },
+    "selected_plan": {
+      "type": "string",
+      "enum": [
+        "standard",
+        "pro",
+        "ultimate"
+      ],
+      "description": "Selected plan"
+    },
+    "preferred_date": {
+      "type": "string",
+      "format": "date",
+      "description": "Preferred call date"
+    },
+    "preferred_time": {
+      "type": "string",
+      "description": "Preferred call time"
+    },
+    "country": {
+      "type": "string",
+      "description": "Country of residence"
+    },
+    "experience_level": {
+      "type": "string",
+      "enum": [
+        "beginner",
+        "some_experience",
+        "experienced",
+        "experienced_reseller"
+      ],
+      "description": "Experience level"
+    },
+    "goals": {
+      "type": "string",
+      "description": "Main goals"
+    },
+    "questions": {
+      "type": "string",
+      "description": "Questions for the call"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "pending",
+        "confirmed",
+        "completed",
+        "cancelled"
+      ],
+      "default": "pending"
+    }
+  },
+  "required": [
+    "full_name",
+    "email",
+    "selected_plan"
+  ]
+}
