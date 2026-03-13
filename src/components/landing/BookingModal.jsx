@@ -10,7 +10,7 @@ function validateStep1(form, contactMethod) {
   if (!contactMethod) return "Please select a contact method.";
   if (!form.full_name.trim()) return "Full name is required.";
   const parts = form.full_name.trim().split(/\s+/);
-  if (parts.length < 2 || parts.some(p => p.length < 2)) return "Please enter your first and last name.";
+  if (parts.length < 2) return "Please enter your first and last name.";
   if (/\d/.test(form.full_name)) return "Name should not contain numbers.";
   if (!form.email.trim()) return "Email is required.";
   if (!EMAIL_RE.test(form.email)) return "Please enter a valid email address.";
