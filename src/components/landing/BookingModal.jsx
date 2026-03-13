@@ -86,8 +86,8 @@ export default function BookingModal({ isOpen, onClose, selectedPlan }) {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
           ...form,
-          email: form.email.toLowerCase().trim(),
-          full_name: form.full_name.trim(),
+          email: form.email.toLowerCase().trim().replace(/[^\x21-\x7E]/g, ""),
+          full_name: form.full_name.trim().replace(/[^\x20-\x7E]/g, ""),
           selected_plan: selectedPlan,
           contact_method: contactMethod,
           _hp: honeypotRef.current,       // honeypot
