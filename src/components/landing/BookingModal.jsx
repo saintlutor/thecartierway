@@ -154,7 +154,7 @@ export default function BookingModal({ isOpen, onClose, selectedPlan }) {
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-2">Your Call Is Booked!</h3>
               <p className="text-gray-400 text-sm mb-2">
-                Your Cartier strategy call has been confirmed.
+                Your CEO strategy call has been confirmed.
               </p>
               {form.preferred_date && form.preferred_time && (
                 <p className="text-sm text-gray-600 font-medium mb-1">
@@ -319,7 +319,7 @@ export default function BookingModal({ isOpen, onClose, selectedPlan }) {
                     </div>
                     <div>
                       <Label className="text-xs text-gray-500">Goals (Optional)</Label>
-                      <Textarea value={form.goals} onChange={(e) => update("goals", e.target.value)} placeholder="What are your main goals with Cartier?" className="mt-1 h-20" />
+                      <Textarea value={form.goals} onChange={(e) => update("goals", e.target.value)} placeholder="What are your main goals with CEO?" className="mt-1 h-20" />
                     </div>
                     <div>
                       <Label className="text-xs text-gray-500">Questions for the call (Optional)</Label>

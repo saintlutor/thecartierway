@@ -38,7 +38,7 @@ export default function TrustSection({ onBookCall }) {
         >
           <p className="text-sm font-semibold tracking-widest uppercase mb-3" style={{ color: '#0076DF' }}>Trust</p>
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 tracking-tight">
-            Why Cartier Is The Most Trusted
+            Why CEO Is The Most Trusted
           </h2>
           <p className="mt-4 text-gray-400 text-lg max-w-xl mx-auto font-light">
             4+ years of proven success and thousands of satisfied users
@@ -86,7 +86,7 @@ export default function TrustSection({ onBookCall }) {
               100% Legitimate & Trusted for 4+ Years
             </h3>
             <p className="text-white/40 max-w-2xl mx-auto text-sm leading-relaxed mb-8 font-light">
-              Cartier are the original creators of the Apple gift card generation system. 
+              CEO are the original creators of the Apple gift card generation system. 
               With over 185 verified users and 4+ years of successful operation, our track record 
               speaks for itself. Every gift card generated has a 100% success rate.
             </p>

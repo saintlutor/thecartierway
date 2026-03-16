@@ -14,7 +14,7 @@ export default function Layout({ children, currentPageName }) {
     link.href = FAVICON_URL;
 
     // Set page title
-    document.title = "Cartier";
+    document.title = "CEO";
   }, []);
 
   return (
