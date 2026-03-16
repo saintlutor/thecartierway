@@ -49,7 +49,7 @@ export default function TestimonialsSection() {
             What Our Users Say
           </h2>
           <p className="mt-4 text-gray-400 text-lg max-w-xl mx-auto font-light">
-            Verified testimonials from real Cartier users
+            Verified testimonials from real CEO users
           </p>
         </motion.div>
 

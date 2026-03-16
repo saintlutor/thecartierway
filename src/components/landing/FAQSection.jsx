@@ -80,7 +80,7 @@ export default function FAQSection() {
             Frequently Asked Questions
           </h2>
           <p className="mt-4 text-gray-400 text-lg font-light">
-            Everything you need to know about Cartier
+            Everything you need to know about CEO
           </p>
         </motion.div>
 
